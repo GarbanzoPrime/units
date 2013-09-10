@@ -13,7 +13,7 @@ namespace units {
 	class Hertz {
 	public:
 
-		Rep count() constexpr  { return _data ; }
+		Rep count() const { return _data ; }
 	
 	private:
 		Rep _data ;
